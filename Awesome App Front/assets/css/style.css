@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+}
+.logo-txt{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+.nav-item a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.sec-1{
+    background-image: url(../image/home-bg.jpg);
+    width: 100%;
+}
+.sec-1 .content{
+    padding-top: 200px;
+}
+h1{
+    font-size: 3.3rem;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    border: 2px solid #fff !important;
+    border-radius: 20px !important;
+    padding: 9px 18px !important;
+}
+.sec-1 p{
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+.sec-1 ul li{
+    list-style: none;
+    font-weight: 500;
+    color: #fff;
+}
+.icon i{
+    font-size: 60px;
+    color: #f5593d;
+}
+.card-title{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.card-text{
+    color: #6c7596;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.sec-3 p{
+    color: #5c5d5f;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.carousel-control-prev, .carousel-control-next{
+    border: none !important;
+}
+.carousel-item img{
+    border-radius: 15px;
+}
+.sec-4{
+    background-color: #f5fafd;
+}
+.sec-5 .card{
+    background-color: #f5fafd;
+    box-shadow: 3px 3px 10px #dbdbdb;
+    transition: 0.2s;
+}
+.sec-5 .card:hover{
+    transform: translateY(-8px);
+}
+.sec-5 .card button{
+    border: 2px solid #000;
+}
+.standart{
+    background-image: url(../image/home-bg.jpg);
+    background-size: cover;
+    color: #fff;
+}
+.card-body h3{
+    font-size: 2.3rem;
+}
+.sec-6 .card{
+    background-color: #f5fafd;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #dbdbdb;
+    padding: 1rem;
+}
+.sec-7{
+    background-image: url(../image/home-bg.jpg);
+}
+.sec-7 i{
+    font-size: 60px;
+    color: #5c5d5f;
+}
+.sec-7 .card{
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.sec-7 .card:hover{
+    transform: translateY(-8px);
+}
+.sec-7 .card:hover .la-android{
+    color: #a4c639;
+}
+.sec-7 .card:hover .la-windows{
+    color: #0078d7;
+}
+footer{
+    background-color: #000;
+}
+.icons i{
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 10px;
+}
